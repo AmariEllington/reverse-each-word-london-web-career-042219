@@ -7,4 +7,3 @@ array.each do |string|
 end
   narray.join(" ")
 end
-
