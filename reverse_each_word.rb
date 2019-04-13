@@ -10,9 +10,9 @@ end
 
 def reverse_each_word(string)
   array = string.split(" ") #tunr string into an array
-  test_array = []
+  practice_array = []
   array.collect do|string|
-    test_array << string.reverse #reverse each word in the array
+    practice_array << string.reverse #reverse each word in the array
   end
   test_array.join(" ")
 end
